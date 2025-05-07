@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+body {
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #C7FFED;
+}
+
+header {
+    height: 91px;
+    background-color: #008F8C;
+    display: flex;
+    flex-direction: row;
+    gap: 1600px;
+}
+
+.logo {
+    height: 91px;
+    width: 91px;
+    background-color: #015958;
+}
+
+#head_buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+    font-size: 22px;
+}
+
+.cat_image {
+    height: 800px;
+    width: 800px;
+    border-radius: 20px;
+}
+
+.minihelper {
+    padding-top: 185px;
+    padding-left: 75px;
+    padding-right: 275px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.minihelper_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.minihelper_teleport {
+    color: #000000;
+    font-size: 20px;
+    background-color: #008F8C; 
+    border-radius: 20px;
+    height: 75px;
+    width: 394px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.not_lack {
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 58px;
+}
+
+.main_helper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 158px;
+}
+
+.main_info {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.helper_name {
+    font-size: 32px;
+}
+
+.info_text {
+    font-size: 24px;
+    width: 800px;
+}
+
+.helper_image {
+    height: 900px;
+    width: 600px;
+}
+
+footer {
+    background-color: #008F8C;
+    height: 156px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 154px;
+    padding-left: 125px;
+}
+
+.number {
+    font-size: 24px;
+    width: 228px;
+}
+
+.ds {
+    font-size: 24px;
+    width: 326px;
+}
